@@ -1,0 +1,52 @@
+{
+  "majority_baseline": {
+    "precision": 0.4626865671641791,
+    "recall": 1.0,
+    "f1": 0.6326530612244898,
+    "confusion_matrix": [
+      [
+        0,
+        36
+      ],
+      [
+        0,
+        31
+      ]
+    ],
+    "roc_auc": 0.5
+  },
+  "logistic_regression": {
+    "precision": 0.8571428571428571,
+    "recall": 0.967741935483871,
+    "f1": 0.9090909090909091,
+    "confusion_matrix": [
+      [
+        31,
+        5
+      ],
+      [
+        1,
+        30
+      ]
+    ],
+    "roc_auc": 0.985663082437276
+  },
+  "random_forest": {
+    "precision": 0.90625,
+    "recall": 0.9354838709677419,
+    "f1": 0.9206349206349206,
+    "confusion_matrix": [
+      [
+        33,
+        3
+      ],
+      [
+        2,
+        29
+      ]
+    ],
+    "roc_auc": 0.9587813620071685
+  },
+  "selected_model": "random_forest",
+  "selection_reason": "Highest held-out F1 among the two candidate classifiers."
+}

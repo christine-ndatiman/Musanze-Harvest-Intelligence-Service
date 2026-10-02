@@ -1,0 +1,47 @@
+{
+  "silhouette_scores_by_k": {
+    "2": 0.15722136686422433,
+    "3": 0.14216836367531155,
+    "4": 0.14550050070982423,
+    "5": 0.14237166349964028,
+    "6": 0.1417222205951469
+  },
+  "selected_k": 2,
+  "selection_reason": "Highest silhouette score among K=2 through K=6 on the training split.",
+  "profiles": [
+    {
+      "cluster": 0,
+      "size": 134,
+      "mean_rainfall_mm": 1011.88,
+      "mean_temp_c": 19.65,
+      "mean_soil_moisture_pct": 51.14,
+      "mean_fertilizer_kg": 135.62,
+      "mean_field_size_ha": 2.17,
+      "support_rate": 0.0,
+      "season_A_rate": 0.44,
+      "interpretation": "Describe this group using its average rainfall, soil moisture, fertilizer, field size, and support rate; validate with local agronomy expertise."
+    },
+    {
+      "cluster": 1,
+      "size": 132,
+      "mean_rainfall_mm": 988.64,
+      "mean_temp_c": 18.79,
+      "mean_soil_moisture_pct": 50.88,
+      "mean_fertilizer_kg": 126.63,
+      "mean_field_size_ha": 2.19,
+      "support_rate": 1.0,
+      "season_A_rate": 0.5,
+      "interpretation": "Describe this group using its average rainfall, soil moisture, fertilizer, field size, and support rate; validate with local agronomy expertise."
+    }
+  ],
+  "features_used": [
+    "rainfall_mm",
+    "avg_temp_c",
+    "soil_moisture_pct",
+    "fertilizer_kg",
+    "field_size_ha",
+    "season",
+    "cooperative_support"
+  ],
+  "targets_excluded": true
+}

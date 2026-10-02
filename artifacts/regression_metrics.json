@@ -1,0 +1,19 @@
+{
+  "mean_baseline": {
+    "mae": 2.312284688921573,
+    "rmse": 2.8139230759772325,
+    "r2": -0.001176979133553413
+  },
+  "ridge": {
+    "mae": 0.8785420059564011,
+    "rmse": 1.111097049149126,
+    "r2": 0.8439044934528926
+  },
+  "random_forest": {
+    "mae": 1.075021025906893,
+    "rmse": 1.3756843639717187,
+    "r2": 0.7607102944800905
+  },
+  "selected_model": "ridge",
+  "selection_reason": "Lowest held-out RMSE among the two candidate models."
+}

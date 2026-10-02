@@ -1,0 +1,5 @@
+Student ID: 25/27201
+Verification code: AI-A2-7201
+SHA-256: d013ff87a7c7f2778ea9069b4ca170fdf37aa928c6840eff31f5e040ff2067db
+Rows in generated CSV: 269
+Rows after duplicate removal: 266

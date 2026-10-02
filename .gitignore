@@ -1,0 +1,5 @@
+.venv/
+.venv-py315-backup/
+__pycache__/
+.pytest_cache/
+*.pyc
